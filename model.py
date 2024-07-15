@@ -8,8 +8,8 @@ from sklearn.metrics import accuracy_score
 
 
 # importing the data
-df1 = pd.read_csv(r"C:\Users\ALVIN KAYI\Desktop\ml and ai\AI and ML\diabetes prediction model\Testing.csv")
-df2 = pd.read_csv(r"C:\Users\ALVIN KAYI\Desktop\ml and ai\AI and ML\diabetes prediction model\Training.csv")
+df1 = pd.read_csv(r"\Testing.csv")
+df2 = pd.read_csv(r"\Training.csv")
 
 # concatenate the two dataframes to make the workload easier
 df = pd.concat([df1,df2], axis=0)
